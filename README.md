@@ -1,6 +1,6 @@
 ### Case Lab JavaScript от стажировок Росатома
 
-###[Демо здесь](https://www.example.com)###
+### [Демо здесь](https://www.example.com)
 
 **Требования к реализации:**
 - Хранение данных должно проводиться в хранилище localstorage
