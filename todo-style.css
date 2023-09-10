@@ -1,0 +1,122 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+    height: 95vh;
+    background: rgb(16, 16, 16);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 20px;
+}
+a{
+    color: aqua;
+}
+h1{
+    letter-spacing: 20px;
+}
+input{
+    width: 60%;
+    font-size: 23px;
+    /* background: rgb(59, 59, 59); */
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+img{
+    cursor: pointer;
+}
+.bordered__btn{
+    background: none;
+    box-shadow: inset 0px 0px 5px white;
+    color: white;
+    transition: all 0.2s;
+}
+.bordered__btn:hover{
+    background: white;
+    color: black;
+}
+.todo__container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: inset 0px 0px 7px rgba(255, 255, 255, 0.705);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.todo{
+    margin: 20px auto;
+    width: 90%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.todo__head{
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.todos{
+    width: 100%;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.todo__item{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.434);
+}
+.todo__item:hover{
+    background: rgb(45, 45, 45);
+}
+.todo__item__actions{
+    display: flex;
+    gap: 10px;
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(163, 163, 163);
+}
+.even{
+    background: rgb(65, 74, 61);
+}
+.odd{
+    background: rgb(87, 65, 65);
+}
+.options{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.delete__btn{
+    background: rgb(189, 23, 23);
+    color: white;
+}
+.warning{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(188, 172, 172);
+}
+@media screen and (max-width: 610px){
+    
+}

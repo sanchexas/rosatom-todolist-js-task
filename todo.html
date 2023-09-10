@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo-style.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <h1>TodoList</h1>
+    <p>Работа выполнена Санчес-Перес Сергеем Евгеньевичем</p>
+    <a href="https://sanches-peres.netlify.app/portfolio">Ссылка на резюме-портфолио</a>
+    <div class="options">
+        <button class="bordered__btn" id="even" onclick="showEven()">Показать четные</button>
+        <button class="bordered__btn" id="odd" onclick="showOdd()">Показать нечетные</button>
+        <button class="delete__btn" onclick="deleteFirst()">Удалить 1-й элемент</button>
+        <button class="delete__btn" onclick="deleteLast()">Удалить последний элемент</button>
+    </div>
+    <div class="todo__container">
+        <div class="todo">
+            <div class="todo__head">
+                <input type="text" placeholder="Введите заголовок...">
+                <button onclick="add()">Добавить</button>
+            </div>
+            <div class="todos" id="todos"></div>
+        </div>
+    </div>
+    <script src="todo-script.js"></script>
+</body>
+</html>
