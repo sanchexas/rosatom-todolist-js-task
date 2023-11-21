@@ -1,6 +1,6 @@
 ### Case Lab JavaScript от стажировок Росатома
 
-### [Демо здесь](https://sanches-peres.netlify.app/greenatomtask/todo)
+### [Демо здесь](https://sanchexas.netlify.app/greenatomtask/todo)
 
 **Требования к реализации:**
 - Хранение данных должно проводиться в хранилище localstorage
